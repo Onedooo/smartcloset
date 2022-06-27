@@ -38,7 +38,7 @@ from cloth.models import MyClothes
 #abs_path = 'C:/Users/seungjun/Desktop/BIGDATA_edu/Closet_Management_proj/Django/'
 
 # 2) 처음 서버 작동시 로드됨
-model = load_model(abs_path + 'yolov5_code/train_file/color.h5')
+model = load_model('yolov5_code/train_file/color.h5')
 
 # 3) 연결코드
 def color_classfication(numpy_value):
